@@ -1,0 +1,20 @@
+[project]
+name = "expt11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "balarithik", email = "balarithik15@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=2.28.0",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+expt11 = "expt11:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
